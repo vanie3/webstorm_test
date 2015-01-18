@@ -1,0 +1,182 @@
+/*-------------------------------------
+    Variables
+-------------------------------------*/
+/*-------------------------------------
+    Presets
+-------------------------------------*/
+/* line 14, style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 17, style.scss */
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 100;
+  line-height: 1.25;
+}
+/* line 21, style.scss */
+body h1 {
+  font-size: 175%;
+}
+/* line 22, style.scss */
+body h2 {
+  font-size: 150%;
+}
+/* line 23, style.scss */
+body h3 {
+  font-size: 125%;
+}
+/* line 24, style.scss */
+body h4 {
+  font-size: 100%;
+}
+/* line 25, style.scss */
+body h5 {
+  font-size: 75%;
+}
+/* line 26, style.scss */
+body h6 {
+  font-size: 50%;
+}
+/* line 27, style.scss */
+body img {
+  display: block;
+  width: 100%;
+}
+/* line 28, style.scss */
+body .button {
+  color: #222;
+  background-color: #ddd;
+  padding: .5rem 2rem;
+  margin: 1rem 0 0;
+  border-radius: .25rem;
+  text-decoration: none;
+}
+
+/* line 39, style.scss */
+nav img {
+  width: 160px;
+}
+
+/* line 44, style.scss */
+.bs {
+  background-color: #8bcbb9;
+}
+
+/* line 47, style.scss */
+.navbar-default {
+  background-color: #8bcbb9;
+  border-color: #8bcbb9;
+}
+/* line 50, style.scss */
+.navbar-default .navbar > li > a {
+  color: white;
+}
+
+/* line 54, style.scss */
+.navbar {
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background-color: #8bcbb9;
+}
+
+/* line 60, style.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* line 66, style.scss */
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 5px 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 73, style.scss */
+.jumbotron {
+  background-image: url("../img/bg4.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+/* line 80, style.scss */
+.jumbotron h1 {
+  font-weight: 700;
+}
+/* line 83, style.scss */
+.jumbotron p {
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+/* line 87, style.scss */
+.btn-primary {
+  color: #8bcbb9;
+  background-color: white;
+  border-color: white;
+  font-weight: 700;
+}
+/* line 92, style.scss */
+.btn-primary:hover {
+  background-color: #8bcbb9;
+  border-color: #8bcbb9;
+}
+
+/* line 97, style.scss */
+article {
+  color: white;
+}
+/* line 99, style.scss */
+article h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+  font-weight: 700;
+}
+/* line 104, style.scss */
+article p {
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 110, style.scss */
+.bs .social ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 116, style.scss */
+footer {
+  background-color: #424b52;
+  color: white;
+  padding-top: 20px;
+}
+
+/* line 126, style.scss */
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+  background: #8bcbb9;
+  border: 1px solid #b7b7b7;
+}
+
+/* line 130, style.scss */
+.pc figure img {
+  border-radius: 50%;
+}
+
+/* line 133, style.scss */
+.pc footer {
+  background-color: #424b52;
+  color: white;
+  padding-top: 20px;
+}

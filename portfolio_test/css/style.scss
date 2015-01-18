@@ -1,0 +1,149 @@
+/*-------------------------------------
+    Variables
+-------------------------------------*/
+$aquamarine: rgb(139, 203, 185);
+$hero-img: url("../img/bg4.jpg");
+$footer: hsl(206, 11%, 29%);
+$mainfont: 'Amatic SC', cursive;
+$subfont: 'Helvetica Neue', Helvetica, arial, sans-serif;
+
+
+/*-------------------------------------
+    Presets
+-------------------------------------*/
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 100;
+    line-height: 1.25;
+    h1 {font-size: 175%;}
+    h2 {font-size: 150%;}
+    h3 {font-size: 125%;}
+    h4 {font-size: 100%;}
+    h5 {font-size: 75%;}
+    h6 {font-size: 50%;}
+    img {display: block;width: 100%;}
+    .button {
+        color: #222;
+        background-color: #ddd;
+        padding: .5rem 2rem;
+        margin: 1rem 0 0;
+        border-radius: .25rem;
+        text-decoration: none;
+    }
+}
+
+nav{
+  img{
+    width: 160px;
+  }
+}
+
+.bs{
+    background-color: $aquamarine;
+}
+.navbar-default{
+    background-color: rgb(139, 203, 185);
+    border-color: $aquamarine;
+    .navbar>li>a{
+        color: white;
+    }
+}
+.navbar{
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background-color: $aquamarine;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: $mainfont;
+    font-size: 40px;
+    font-weight: 700;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.jumbotron{
+    background-image: $hero-img;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: $mainfont;
+    // font-weight: 700;
+    h1{
+        font-weight: 700;
+    }
+    p{
+        font-family: $subfont;
+    }
+}
+.btn-primary {
+    color: $aquamarine;
+    background-color: white;
+    border-color: white;
+    font-weight: 700;
+    &:hover{
+        background-color: $aquamarine;
+        border-color: $aquamarine;
+    }
+}
+article{
+    color: white;
+    h1{
+        font-family: $mainfont;
+        font-size: 70px;
+        font-weight: 700;
+    }
+    p{
+        font-family: $subfont;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+.bs .social ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    background-color: $footer;
+    color: white;
+    padding-top: 20px;
+}
+
+
+.pc nav{
+    
+}
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+background: $aquamarine;
+border: 1px solid #b7b7b7;
+}
+.pc figure img{
+    border-radius: 50%;
+}
+.pc footer{
+    background-color: $footer;
+    color: white;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
